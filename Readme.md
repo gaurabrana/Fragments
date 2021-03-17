@@ -1,2 +1,2 @@
-## Included Fragment for entire activity lifecycle
-![](app/src/main/res/drawable/task1.gif) 
+## Fragment added to activity dynamically
+![](app/src/main/res/drawable/task2.gif) 
