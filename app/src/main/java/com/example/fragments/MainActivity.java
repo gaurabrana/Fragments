@@ -1,6 +1,7 @@
 
 package com.example.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -74,5 +75,9 @@ public class MainActivity extends AppCompatActivity {
         // Save the state of the fragment (true=open, false=closed).
         savedInstanceState.putBoolean(STATE_FRAGMENT, isFragmentDisplayed);
         super.onSaveInstanceState(savedInstanceState);
+    }
+    public void onNextClick(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 }
